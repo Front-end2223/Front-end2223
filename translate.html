@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- created by ϙ͟͞ᴜ͟͞ᴅ͟͞ʀ͟͞ᴀ͟͞ᴛ͟͞ᴜ͟͞ʟ͟͞ʟ͟͞ᴏ͟͞ʜ͟͞ -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Translate</title>
+  <link rel="icon" href="./img/logo.png">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!-- navbar start -->
+
+  <div class="filter"></div>
+  <div class="mobile-slider">
+
+    <div class="close-menu-wrap">
+
+      <div class="mobile-slider-top">
+        <div class="close-menu"></div>
+        <div class="close-menu"></div>
+      </div>
+
+    </div>
+
+    <ul class="mobile__list">
+      <li class="mobile__item"><a href="./index.html" class="nav__link"><i class="fa-solid fa-house"></i></a></li>
+      <li class="mobile__item"><a href="./translate.html" class="nav__link menu-active">Translate</a></li>
+      <li class="mobile__item"><a href="./about.html" class="nav__link">Sayt haqida</a></li>
+      <li class="mobile__item"><a href="./contact.html" class="nav__link">Bog'lanish</a></li>
+    </ul>
+
+  </div>
+
+  <nav class="nav">
+
+    <div class="nav__inner">
+
+      <a href="./index.html" class="nav__logo">
+        <img width="50" class="nav__img" src="./img/logo.png" alt="Apple">
+        <strong class="nav__title">Translated.fun</strong>
+      </a>
+
+      <ul class="nav__list">
+        <li class="nav__item"><a class="nav__link" href="./index.html"><i class="fa-solid fa-house"></i></a></li>
+        <li class="nav__item"><a class="nav__link active" href="./translate.html">Translate</a></li>
+        <li class="nav__item"><a class="nav__link" href="./about.html">Sayt haqida</a></li>
+        <li class="nav__item"><a class="nav__link" href="./contact.html">Bog'lanish</a></li>
+      </ul>
+
+      <div class="menu">
+        <div class="burger"></div>
+      </div>
+
+    </div>
+
+  </nav>
+
+  <!-- navbar end -->
+
+  <!-- translate start -->
+
+  <div class="translate">
+
+    <div class="container translate__container">
+
+      <div class="wrapper">
+
+        <div class="text-input">
+          <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+          <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation"></textarea>
+        </div>
+
+        <ul class="controls">
+
+          <li class="my-row from">
+
+            <div class="icons">
+              <i id="from" title="Hear" class="fa-solid fa-volume-up"></i>
+              <i id="from" title="Copy" class="fa-solid fa-copy"></i>
+            </div>
+
+            <select title="Select the language"></select>
+
+          </li>
+
+          <li title="Replace" class="exchange"><i class="fa-solid fa-exchange-alt"></i></li>
+
+          <li class="my-row to">
+
+            <select title="Select the language"></select>
+
+            <div class="icons">
+              <i id="to" title="Hear" class="fa-solid fa-volume-up"></i>
+              <i id="to" title="Copy" class="fa-solid fa-copy"></i>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+      <input type="button" value="Translate" class="btn" title="Translate">
+
+    </div>
+
+  </div>
+
+  <!-- translate end -->
+
+
+
+  <!-- script start -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./js/countries.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/app.js"></script>
+  <!-- script end -->
+
+</body>
+
+</html>

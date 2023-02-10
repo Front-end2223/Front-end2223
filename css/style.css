@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+  outline: 3px dotted red;
+  outline-offset: 5px;
+  opacity: 0.5;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(-26deg, #1ec4e9 0%, #673ab7 50%, #262626 50%, #607d8b 100%);
+    background-attachment: fixed;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* come start */
+
+.come {
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 110px 0 50px 0;
+}
+
+.come__title {
+    max-width: 480px;
+    display: inline-block;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.come__btn {
+    display: inline-block;
+    padding: 20px 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid #5372F0;
+    background: transparent;
+    margin-bottom: 30px;
+}
+
+.come__btn:nth-child(2) {
+    margin-right: 20px;
+}
+
+.come__btn:hover {
+    border: 2px solid #5372F0;
+    color: #fff;
+    background: #5372F0;
+    transition: 0.4s;
+}
+
+.come__btn:active {
+    opacity: 0.6;
+}
+
+/* come end */
+
