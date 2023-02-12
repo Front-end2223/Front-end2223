@@ -20,7 +20,8 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1240px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -465,6 +466,12 @@ li,
   cursor: pointer;
   font-size: 16px;
   transition: transform 0.2s ease;
+}
+
+.mybtn{
+  border: none;
+  color: #adadad;
+  background-color: transparent;
 }
 
 .controls i:active {

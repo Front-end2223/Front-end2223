@@ -19,6 +19,13 @@ body {
   background-attachment: fixed;
 }
 
+.container{
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 /* about start */
 
 .wrapper {
@@ -53,21 +60,7 @@ body {
 
 .about__creator span{
   color: #1ec4e9;
-  letter-spacing: 3px;
-}
-
-.creator:hover {
-  cursor: pointer;
-}
-
-.creator::before{
-  content: 'Yaratuvchi: 👨‍💻';
-  color: #5372f0;
-}
-
-.creator:hover::after{
-  content: 'ϙ͟͞ᴜ͟͞ᴅ͟͞ʀ͟͞ᴀ͟͞ᴛ͟͞ᴜ͟͞ʟ͟͞ʟ͟͞ᴏ͟͞ʜ͟͞ 👨‍💻';
-  color: #1ec4e9;
+  font-style: normal;
 }
 
 /* about end */
