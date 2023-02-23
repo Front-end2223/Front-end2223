@@ -251,14 +251,13 @@ nav {
 
 
 .nav__item:hover {
-  transform: scale(1.3);
+  border-bottom: 3px solid #1ec4e9;
   transition: 0.4s;
 }
 
 .mobile__item:hover {
   background-color: #111111;
   transition: 0.4s;
-  transform: scale(0.9);
 }
 
 .nav__container {
@@ -472,6 +471,7 @@ li,
   border: none;
   color: #adadad;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .controls i:active {

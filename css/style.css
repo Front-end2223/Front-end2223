@@ -78,3 +78,16 @@ body {
 
 /* come end */
 
+
+
+/* @media start */
+
+@media (max-width: 768px){
+
+    .come__title{
+        font-size: 50px;
+    }
+
+}
+
+/* @media end */
